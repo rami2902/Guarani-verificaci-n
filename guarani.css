@@ -248,7 +248,7 @@ table td:first-child, table th:first-child {
         flex: 0 1 45%;
     }
 }
-@media (max-width: 768px) {
+@media (min-width: 200px) {
     .contenedor {
         width: 100%; /* Asegura que el div mantenga el 100% del ancho de la pantalla */
     }
