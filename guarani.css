@@ -183,9 +183,10 @@ table {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width:860px ;
+    max-width:990px ;
     text-align: center; /* Alinear texto al centro */
-            padding: 20px; 
+            padding: 20px;
+    min-width:990px;
 }
 
 /* Estilos para el encabezado de la tabla */
@@ -231,7 +232,7 @@ table td:first-child, table th:first-child {
     padding: 20px  ;
     max-width: 100%;
     justify-content: center;
-    min-width: 500px;
+    min-width: 1000px;
     display: block;
     width: 100%;
     min-height: 30px;
