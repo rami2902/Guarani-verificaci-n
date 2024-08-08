@@ -1,0 +1,244 @@
+.contenedor {
+    background-color: rgb(247, 247, 253);
+    padding: 45px;
+    min-width: 1000px;
+    min-height: 50px;
+
+ }
+.contenedor-imagen { 
+    width: 100%;
+    max-width: 80px;
+    height: 50%;
+    max-height
+    : 40px;
+    margin-left: 160px;
+    margin-top: -18px;
+    position: relative;
+    top: -15px;
+    display: inline-block; /* Hace que el enlace se comporte como bloque pero respetando el tamaño de su contenido */
+            text-decoration: none;
+            cursor: pointer;
+            background-color: rgb(247, 247, 253);
+}
+.contenedor-imagen img{
+    height: 75px;
+    border: none; /* Quita el borde predeterminado de la imagen */
+            vertical-align: middle;
+             }
+.contenedor-img {
+    display: inline-block; /* Hace que el enlace se comporte como bloque pero respetando el tamaño de su contenido */
+    text-decoration: none;
+    border: none; /* Quita el borde predeterminado de la imagen */
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: rgb(247, 247, 253);
+}    
+        
+.contenedor-ver {
+    padding-bottom: -49px;
+    color: #08c;
+    border-bottom: 1px solid #eee;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    left: 205px;
+    top: 12px;
+    margin-right: 405px;
+    margin-bottom: 50px;
+    min-width: 900px;
+}
+.h2 {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 2.127659574468085%;
+    align-items:center ;
+     }
+.h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+.contenedor-cert {
+    margin-right: 10px;
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #d9edf7;
+    border: 1px solid #d9dbf7;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #8d8d8d;
+    position: relative;
+    top: -30px;
+    left: 200px;   
+    min-width:845px;
+    max-height: 44px;
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+}
+.body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+    background-color: #fff;
+    min-width: 1000px;;
+    max-height: 100%;
+}
+.contenedor-boton {
+    width: 200px; /* Ancho del contenedor */
+    height: 100px; /* Altura del contenedor */
+    
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; 
+    position: relative;
+    left: 889px;
+    bottom: 65px;
+    
+     }
+.boton {
+    padding: 6px 11px;
+    border-radius: 3px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #49afcd;
+    background-image: -moz-linear-gradient(top,#5bc0de,#2f96b4);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#5bc0de),to(#2f96b4));
+    background-image: -webkit-linear-gradient(top,#5bc0de,#2f96b4);
+    background-image: -o-linear-gradient(top,#5bc0de,#2f96b4);
+    background-image: linear-gradient(to bottom,#5bc0de,#2f96b4);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de',endColorstr='#ff2f96b4',GradientType=0);
+    border-color: #2f96b4 #2f96b4 #1f6377;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    *background-color: #2f96b4;
+    cursor: pointer;
+    font-family: sans-serif;
+    max-width: 1000px;
+}
+.contenedor-tran {
+    color: #8d8d8d;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 90px;
+    left: 200px;   
+    font-size: 12px;
+    max-width: 1000px;
+}
+.contenedor-captcha {
+    position: relative;
+    left: 205px;
+    bottom: 93px;
+    max-width: 1000px;
+}
+.buton {
+    background-color: transparent; /* Fondo transparente */
+            border: none; /* Sin borde */
+            padding: 0; /* Sin espacios internos */
+            cursor: pointer; /* Cursor de mano al pasar */
+            color: rgb(62, 158, 255); /* Color del texto */
+            font-size: 14px; /* Tamaño de fuente */
+            position: relative;
+            left: 413px;
+            bottom: 159px;
+            font-family: sans-serif;
+        }
+.contenedor-buton:focus {
+    outline: none;
+}
+.casilla-texto  {
+        border: 1px solid #b4b2b2; /* Borde inicial gris claro */
+        padding: 5px ; /* Espaciado interno */
+        font-size: 16px; /* Tamaño de fuente */
+        transition: border-color 0.3s ease; /* Transición suave para el color del borde */
+        width: 300px; 
+        position: relative;
+        left: 413px;
+        bottom: 170px;
+        border-radius: 4px;
+        max-width: 200px;
+}
+.casilla-texto:focus {
+    border-color: dodgerblue; /* Borde celeste cuando enfocada */
+    outline: none;
+     }
+/* Estilos generales para la tabla */
+table {
+    width: 100%;
+    border-collapse: inherit;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width:860px ;
+    text-align: center; /* Alinear texto al centro */
+            padding: 20px; 
+}
+
+/* Estilos para el encabezado de la tabla */
+table thead {
+    background-color: rgb(247, 247, 253);
+}
+
+table thead th {
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(91, 91, 91);
+}
+
+/* Estilos para las filas de la tabla */
+table tbody tr {
+    background-color: rgb(247, 247, 253);
+}
+
+table tbody tr:nth-child(even) {
+    background-color: rgb(247, 247, 253);
+}
+
+table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid rgb(91, 91, 91);
+}
+
+/* Estilos para las celdas */
+table td, table th {
+    border-left: 1px solid rgb(91, 91, 91);
+}
+
+table td:first-child, table th:first-child {
+    border-left: none;
+}
+.h5 {
+    position: relative;
+    left: 50%;
+    align-items: center;
+    background-color: rgb(247, 247, 253);
+    border: rgb(91, 91, 91);
+    padding: 20px  ;
+    max-width: 100%;
+    justify-content: center;
+    min-width: 500px;
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 2.127659574468085%;
+    align-items:center ;
+}
