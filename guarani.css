@@ -200,6 +200,7 @@ table {
     text-align: center; /* Alinear texto al centro */
             padding: 20px;
     min-width:990px;
+    table-layout: auto;
 }
 
 /* Estilos para el encabezado de la tabla */
