@@ -1,3 +1,16 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho total */
+}
+
+/* Asegurando que el body ocupe el 100% de la ventana */
+html, body {
+    width: 100%; /* Asegura que el body ocupe todo el ancho */
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+}
+
 .contenedor {
     background-color: rgb(247, 247, 253);
     padding: 45px;
