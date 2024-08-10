@@ -48,16 +48,12 @@ html, body {
 }    
         
 .contenedor-ver {
-    padding-bottom: -49px;
+    
     color: #08c;
     border-bottom: 1px solid #eee;
     font-family: 'Open Sans', sans-serif;
     position: relative;
-    left: 205px;
-    top: 12px;
-    margin-right: 405px;
-    margin-bottom: 50px;
-    min-width: 900px;
+    
 }
 .h2 {
     display: block;
