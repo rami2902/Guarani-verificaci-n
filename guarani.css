@@ -259,9 +259,7 @@ table td:first-child, table th:first-child {
     margin-left: 2.127659574468085%;
     align-items:center ;
 }
-@media (min-width:768px){
-    h5{
-        flex: 0 1 45%;
+
     }
 }
 @media (min-width: 200px) {
